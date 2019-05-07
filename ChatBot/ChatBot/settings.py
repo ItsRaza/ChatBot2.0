@@ -125,6 +125,6 @@ STATIC_ROOT = os.path.join(SITE_ROOT, "bot_static")
 CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "asgiref.inmemory.ChannelLayer",
-        "ROUTING": "chatbot_tutorial.routing.channel_routing",
+        "ROUTING": "ChatBot.routing.channel_routing",
     },
 }
