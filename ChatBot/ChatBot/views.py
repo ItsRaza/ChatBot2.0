@@ -10,7 +10,7 @@ from django.shortcuts import render
 
 def chat(request):
     context = {}
-    return render(request, 'chatbot_tutorial/chatbot.html', context)
+    return render(request, 'ChatBot/chatbot.html', context)
 
 
 def respond_to_websockets(message):
